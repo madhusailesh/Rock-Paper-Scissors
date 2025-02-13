@@ -135,9 +135,30 @@ img {
 
   #user-score, #computer-score {
       font-size: 2rem;
+  
   }
+  
 
   #msg {
       font-size: 1.5rem;
+ font-size: 1.5rem;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  max-width: 90%;
   }
+
+  }
+}
+@media (max-width: 600px) {
+  #msg {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 5px;
+  }
+}
 }
