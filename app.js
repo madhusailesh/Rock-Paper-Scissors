@@ -25,7 +25,7 @@ const showWinner=(userWin,userchoice,comptchoice)=>{
       comptScr.innerHTML=computerScore;
       console.log("You Lose 🤣");
       msg.innerHTML=`You Lose 🤣 
-      ${comptchoice} Beate your ${userchoice}`;;
+      ${comptchoice} Beat your ${userchoice}`;;
       msg.style.backgroundColor = "red";
     }
 
