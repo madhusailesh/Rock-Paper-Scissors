@@ -18,7 +18,7 @@ const showWinner=(userWin,userchoice,comptchoice)=>{
       userScore++;
       userScr.innerHTML=userScore;
       console.log("You Win🏆");
-      msg.innerHTML=`You Win🏆 your ${userchoice} Beate ${comptchoice}`;
+      msg.innerHTML=`You Win🏆 your ${userchoice} Beat ${comptchoice}`;
       msg.style.backgroundColor = "green";
     } else {
       computerScore++;
